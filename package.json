@@ -1,20 +1,28 @@
 {
-  "name": "practicenode",
+  "name": "restaurantapplication",
   "version": "1.0.0",
-  "description": "Node link > https://nodeschool.io/",
+  "description": "Restaurant application",
   "main": "hello-world.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./restaurant/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lakshmikorlapati/PracticeNode.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lakshmi korlapati",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lakshmikorlapati/PracticeNode/issues"
   },
-  "homepage": "https://github.com/lakshmikorlapati/PracticeNode#readme"
+  "homepage": "https://github.com/lakshmikorlapati/PracticeNode#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
 }
